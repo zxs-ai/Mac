@@ -1,28 +1,30 @@
-# appleAi
-# payload:
+# Apple Intelligence / Siri / Search
+# Source: https://support.apple.com/en-us/101555
+# 20260104更新
+# Siri / Spotlight / Lookup / Safari / News / Music
+DOMAIN-SUFFIX,smoot.apple.com
 
-    # 来源 ： https://support.apple.com/en-us/101555   
-    # 搜索 ： Apple Intelligence, Siri, and Search
+# Siri & Dictation
+DOMAIN,guzzoni.apple.com
 
-    - DOMAIN-SUFFIX , smoot.apple.com                           # 搜索服务：Siri/Spotlight/Lookup/Safari/News/信息/音乐（TCP 443）
-    - DOMAIN        , guzzoni.apple.com                         # Siri 与听写（TCP 443）
+# Search / Lookup
+DOMAIN,gspe1-ssl.ls.apple.com
 
-    - DOMAIN        , gspe1-ssl.ls.apple.com
-    - DOMAIN        , apple-relay.mask.apple-dns.net
+# Apple Relay / DNS Mask
+DOMAIN,apple-relay.mask.apple-dns.net
 
-    - DOMAIN        , apple-relay.fastly-edge.com               # Apple Intelligence Extensions（TCP/UDP 443）
-    - DOMAIN        , apple-relay.apple.com                     # Private Cloud Compute（PCC）（TCP/UDP 443）
-    - DOMAIN        , apple-relay.cloudflare.com                # Private Cloud Compute（PCC）（TCP/UDP 443）
-    - DOMAIN        , cp4.cloudflare.com                        # Private Cloud Compute（PCC）（TCP/UDP 443）
+# Apple Intelligence Extensions
+DOMAIN,apple-relay.fastly-edge.com
 
-   #- DOMAIN        , gateway.icloud.com
+# Private Cloud Compute (PCC)
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
 
-   #- DOMAIN        , gateway.fe2.apple-dns.net
-
-   #- DOMAIN        , seed.siri.apple.com
-
-   #- DOMAIN-SUFFIX , v.aaplimg.com
-   #- DOMAIN        , seed-siri-apple-com.v.aaplimg.com
-   #- DOMAIN        , smoot-searchv2-aapse1c.v.aaplimg.com
-    
-    
+# ===== Optional / Risky (commented) =====
+# DOMAIN,gateway.icloud.com
+# DOMAIN,gateway.fe2.apple-dns.net
+# DOMAIN,seed.siri.apple.com
+# DOMAIN-SUFFIX,v.aaplimg.com
+# DOMAIN,seed-siri-apple-com.v.aaplimg.com
+# DOMAIN,smoot-searchv2-aapse1c.v.aaplimg.com
