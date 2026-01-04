@@ -1,27 +1,21 @@
-# Apple Intelligence / Siri / Search
-# Source: https://support.apple.com/en-us/101555
-# 20260104更新
-# Siri / Spotlight / Lookup / Safari / News / Music
+# 来源 ： https://support.apple.com/en-us/101555
+# 搜索 ： Apple Intelligence, Siri, and Search
+
+# --- 核心服务 ---
 DOMAIN-SUFFIX,smoot.apple.com
-
-# Siri & Dictation
 DOMAIN,guzzoni.apple.com
-
-# Search / Lookup
 DOMAIN,gspe1-ssl.ls.apple.com
-
-# Apple Relay / DNS Mask
 DOMAIN,apple-relay.mask.apple-dns.net
 
-# Apple Intelligence Extensions
+# --- Apple Intelligence 扩展 ---
 DOMAIN,apple-relay.fastly-edge.com
 
-# Private Cloud Compute (PCC)
+# --- Private Cloud Compute (PCC) ---
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,cp4.cloudflare.com
 
-# ===== Optional / Risky (commented) =====
+# 下面这些前面加了 # 符号，代表暂不生效；如果需要生效，删掉行首的 # 即可
 # DOMAIN,gateway.icloud.com
 # DOMAIN,gateway.fe2.apple-dns.net
 # DOMAIN,seed.siri.apple.com
