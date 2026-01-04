@@ -1,0 +1,24 @@
+# Apple Intelligence Domain 规则集 (Surge 格式)
+# 来源：https://support.apple.com/en-us/101555
+
+# 搜索服务：Siri/Spotlight 等
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni.apple.com
+
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+
+# Apple Intelligence Extensions
+DOMAIN,apple-relay.fastly-edge.com
+# Private Cloud Compute (PCC)
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
+
+# 以下为被注释的备用规则
+# DOMAIN,gateway.icloud.com
+# DOMAIN,gateway.fe2.apple-dns.net
+# DOMAIN,seed.siri.apple.com
+# DOMAIN-SUFFIX,v.aaplimg.com
+# DOMAIN,seed-siri-apple-com.v.aaplimg.com
+# DOMAIN,smoot-searchv2-aapse1c.v.aaplimg.com
